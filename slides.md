@@ -148,6 +148,14 @@ We could maybe fix this, but it's clear at this point that this is not a product
 
 <small><https://github.com/oodlefinance/federated-modules-poc/tree/main/next-shell></small>
 
+<!--
+As I was working through the ever increasing array of errors, it became very obvious that this is not quite production ready yet, at least for complex systems, such as micro-apps
+
+Next.js considers this feature experimental, and notes security concerns with the current implementation.
+
+However, there is a way to use this really cool feature...
+-->
+
 ---
 
 # Enter Framer
@@ -173,3 +181,17 @@ const Component = () => (
 - Designer created component, which can be directly implemented
 - Can use variables (props)
 - You can create Components using Code inside Framer!
+
+<!--
+Framer is a design tool, which you can use in browser, but they also offer installable apps.
+
+From design side of things, they offer similar functionality to all the other design tools.
+
+With the launch of URL Imports in Next.js, they've also launched handshake, a very neat tool, which allows devs to use components directly in code, without the need to rebuild them.
+
+As this example shows, and I will show you a live one in a second, they can also take props, which opens up a huge range of possibilities.
+
+Also, as an added bonus, you can actually write Framer components in code, directly in Figma.
+
+Now, let's see how it works on a real project
+-->
